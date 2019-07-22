@@ -1,3 +1,4 @@
+/* set default fonts */
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -5,31 +6,36 @@ body {
     color: black;
 }
 
+.img {
+    text-align: center;
+}
+
+/*fixed navigation at top */
 .top-nav {
     position: fixed;
     top: 10px;
     left: 0px;
     width: 100%;
 }
-
 .top-nav .left {
     float: left;
 }
 
+/*set left sides children to inline blocks */
 .top-nav .left * {
     display: inline-block;
     margin: 0px 0px 1px 10px;
 }
-
 .top-nav .right {
     float: right;
 }
 
+/*set right lines children to inline blocks */
 .top-nav .right * {
     display: inline-block;
     margin: 0px 10px 1px 0px;
 }
-
+/* default settings for links */
 span {
     display: inline;
 }
@@ -38,11 +44,12 @@ a {
     text-decoration: inherit;
     color: inherit;
 }
-
 a:hover {
     text-decoration: underline;
 }
 
+
+/* center the search box, buttons and logo */ 
 .main {
     position: fixed;
     top: 50%;
@@ -52,40 +59,63 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
-
 .main img {
-    margin-left: 25%;
+    /*! margin-left: 25%; */
+}
+.main .search {
+    /*! width: 75%; */
+    /*! margin-left: 10%; */
+}
+.search-box {
+    position: 0 auto;
+    text-align: center;
 }
 
-.main .search {
-    width: 75%;
-    margin-left: 25%;
+.search {
+    text-align: center;
 }
+input[type=text] {
+    width: 90%;
+    /*! float: left; */
+}
+.submit-box {
+    text-align: center;
+}
+
+.submit-box * {
+    display: inline-block;
+    margin: 5px;
+    width: 20%;
+    min-width: 135px;
+    padding: 3px;
+}
+
+
+/* bottom navigation bar, basically inverse of tops */
 
 .bottom-nav {
     position: fixed;
     bottom: 0px;
     width: 100%;
-}
+    background: #f2f2f2;
+    border-top: 1px solid;
+    border-color: #e4e4e4;
 
+}
 .bottom-nav .left {
     float: left;
 }
-
 .bottom-nav .left * {
     display: inline-block;
     margin: 0px 0px 0px 10px;
     /* why am I having to do this manually? */
     margin-top: 10px;
 }
-
 .bottom-nav .right {
     float: right;
     margin-right: 15px;
 }
-
 .bottom-nav .right * {
     display: inline-block;
     margin: 10px;
