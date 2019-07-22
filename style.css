@@ -1,21 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
 .top-nav {
     position: fixed;
     top: 10px;
     left: 0px;
     width: 100%;
-    background-color: green;
 }
 
 .top-nav .left {
     float: left;
 }
 
+.top-nav .left * {
+    display: inline-block;
+    margin: 0px 0px 1px 10px;
+}
+
 .top-nav .right {
     float: right;
 }
 
+.top-nav .right * {
+    display: inline-block;
+    margin: 0px 10px 1px 0px;
+}
+
 span {
     display: inline;
+}
+a {
+    display: inline-block;
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .main {
@@ -23,8 +44,49 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .main img {
     margin-left: 25%;
 }
+
+.main .search {
+    width: 75%;
+    margin-left: 25%;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom-nav .left {
+    float: left;
+}
+
+.bottom-nav .left * {
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+    margin-bottom: -30px;
+}
+
+.bottom-nav .right {
+    float: right;
+    /* margin: 0px 10px 1px 0px; */
+    margin-right: 15px;
+}
+
+.bottom-nav .right * {
+    display: inline-block;
+    margin: 10px;
+    }
+
+    .test{
+        display: inline-block;
+    }

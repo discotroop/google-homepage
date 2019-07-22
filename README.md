@@ -5,19 +5,19 @@ From the Odin Projects JS Curriculum.
 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 To Do: (no particular order)
-- Remove default Styling on <a>
-- correct text on form buttons
+#- Remove default Styling on <a>
+#- correct text on form buttons
 - find and import logo image
-- center main div horizontally and vertically
-- stick top nav to top
-- stick bottom nav to bottom
-- push top left, right and bottom left, right to their appropriate positions
-- space out nav elements correctly
-- find and import app img
-- stlye sign in div
-- set search bars width appropriately.
+#- center main div horizontally and vertically
+#- stick top nav to top
+#- stick bottom nav to bottom
+#- push top left, right and bottom left, right to their appropriate positions
+#- space out nav elements correctly
+#- find and import app img
+#- stlye sign in div
+#- set search bars width appropriately.
 
-- but first block the elements out roughly?
+#- but first block the elements out roughly?
 
 
 
