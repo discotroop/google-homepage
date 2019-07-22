@@ -1,3 +1,30 @@
-p {
-    color: red;
+.top-nav {
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    background-color: green;
+}
+
+.top-nav .left {
+    float: left;
+}
+
+.top-nav .right {
+    float: right;
+}
+
+span {
+    display: inline;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main img {
+    margin-left: 25%;
 }
